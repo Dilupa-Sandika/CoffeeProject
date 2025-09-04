@@ -2,6 +2,7 @@
 const nextConfig = {
   // Production-like behavior
   poweredByHeader: false,
+  // Development indicators are disabled by default in production
   // Optimize for modern browsers
   experimental: {
     optimizeCss: true,
